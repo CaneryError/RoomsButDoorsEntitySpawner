@@ -1,4 +1,4 @@
-local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
+local Spawner = loadstring(game:HttpGet("https://github.com/CaneryError/RoomsButDoorsEntitySpawner/edit/main/source"))()
 
 
 -- Create entity
@@ -11,7 +11,7 @@ local entityTable = Spawner.createEntity({
     CanKill = true,
     KillRange = 50,
     BackwardsMovement = false,
-    BreakLights = true,
+    BreakLights = false,
     FlickerLights = {
         false, -- Enabled/Disabled
         1, -- Time (seconds)
